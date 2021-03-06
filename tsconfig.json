@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2020",
     "lib": [
       "dom",
       "dom.iterable",
@@ -20,6 +20,7 @@
   },
   "include": [
     "next-env.d.ts",
+    "vanda.d.ts",
     "**/*.ts",
     "**/*.tsx"
   ],
