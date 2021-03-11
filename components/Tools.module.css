@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: fit-content;
+}
+
+.overview {
+  display: flex;
+  background-color: var(--primary);
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content {
+  letter-spacing: 0.8px;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: white;
+  width: 50vw;
+  height: 100vh;
+}
+
+@media (max-width: 760px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 200vh;
+  }
+  .content {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+  }
+  .overview {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.sectiontitle {
+  color: white;
+  font-size: 60px;
+  font-family: "Pacifico";
+}
+
+.strong {
+  padding-top: 2rem;
+  font-weight: 600;
+  font-family: "Inter";
+}
+
+.text {
+  padding-block: 2rem;
+  font-family: "Inter";
+}
+
+.textcon {
+  padding-top: 1rem;
+}

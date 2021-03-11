@@ -2,6 +2,7 @@ import Landing from "../components/Landing";
 import Head from "next/head"
 import About from "../components/About";
 import Work from "../components/Work";
+import Tools from "../components/Tools";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Landing/>
       <About/>
       <Work/>
+      <Tools />
     </div>
   )
 }
