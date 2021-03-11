@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: fit-content;
+}
+
+.overview {
+  display: flex;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content {
+  color: #fff;
+  background-color: var(--secondary);
+  letter-spacing: 0.8px;
+  padding: 2em;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50vw;
+  height: 100vh;
+}
+
+@media (max-width: 760px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 200vh;
+  }
+  .content {
+    width: 100vw;
+    height: 100vh;
+  }
+  .overview {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.sectiontitle {
+  color: black;
+  font-size: 60px;
+  font-family: "Pacifico";
+}
+
+.title {
+  font-size: 20px;
+  padding-top: 2rem;
+  font-weight: 600;
+  font-family: "Inter";
+}
+
+.subtitle {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Inter";
+}
+
+.mail a {
+  text-decoration: none;
+  color: var(--primary);
+  font-family: "Inter";
+  text-decoration: underline;
+}
+
+.stack {
+  font-size: 14px;
+  padding-block: 5px;
+  font-family: "Inter";
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+  margin-block: 50px;
+  margin-left: -15px;
+  width: 200px;
+}
