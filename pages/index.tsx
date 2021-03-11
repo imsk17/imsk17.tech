@@ -1,6 +1,7 @@
 import Landing from "../components/Landing";
 import Head from "next/head"
 import About from "../components/About";
+import Work from "../components/Work";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       </Head>
       <Landing/>
       <About/>
+      <Work/>
     </div>
   )
 }
