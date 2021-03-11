@@ -1,5 +1,6 @@
 import Landing from "../components/Landing";
 import Head from "next/head"
+import About from "../components/About";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <meta name="description" content="Sumit's personal portfolio" />
       </Head>
       <Landing/>
+      <About/>
     </div>
   )
 }
