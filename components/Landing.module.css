@@ -17,22 +17,25 @@
 }
 
 .titlecon {
-  padding-right: 100px;
+  padding-right: 50px;
 }
 
 .title {
   white-space: pre-wrap;
-  font-size: 64px;
+  font-size: 3.5rem;
   text-align: center;
   color: white;
   font-family: "Pacifico";
 }
 
 .nav a {
+  font-weight: 600;
   color: var(--primary);
   text-decoration: none;
+  text-transform: uppercase;
 }
 .nav a:hover {
+  text-transform: uppercase;
   text-underline-offset: 8px;
   text-decoration: underline;
   text-decoration-color: white;

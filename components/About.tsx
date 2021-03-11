@@ -8,11 +8,13 @@ export default function About() {
                 </p>
             </div>
             <div className={style.content}>
+            <div>
             <strong className={style.strong}>DEVELOPMENT</strong>
                 <p className={style.text}>
                 I am an Android and Backend engineer from India living in Greater Noida.
                 App Development was my gateway to the creative industry. I love building beautiful Android Experiences and Powerful, Scalable Backend Systems as Well.
                 </p>
+            </div>
                 <div>
                     <strong className={style.strong}>EDUCATION</strong>
                     <p className={style.text}>

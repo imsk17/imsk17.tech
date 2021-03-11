@@ -1,4 +1,4 @@
-import style from "./Home.module.css"
+import style from "./Landing.module.css"
 import Image from "next/image"
 
 export default function Landing() {
@@ -12,8 +12,8 @@ export default function Landing() {
             </p>
             <div className={style.titlecon}>
             <p className={style.title}>
-               Sumit<br></br>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kumar
+               Sumit
+               <p>     Kumar</p>
             </p>
             </div>
             <p className={style.nav}>

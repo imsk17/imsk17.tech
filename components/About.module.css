@@ -18,6 +18,7 @@
   padding: 2em;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   background-color: white;
   width: 50vw;
   height: 100vh;

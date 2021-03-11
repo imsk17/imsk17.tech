@@ -8,8 +8,7 @@ export default function Tools() {
                 </p>
             </div>
             <div className={style.content}>
-              <p className={style.text}>
-                <div>
+                <div >
                 <strong>Languages I am Familiar With -</strong>
                 <p className={style.textcon}>
                   1 - Golang<br/>
@@ -43,7 +42,7 @@ export default function Tools() {
                   Musician - Sia<br></br>
                 </p>
                 </div>
-              </p>
+        
             </div>
         </div>
     )
