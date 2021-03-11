@@ -1,9 +1,17 @@
+import Landing from "../components/Landing";
+import Head from "next/head"
+
 export default function Home() {
   return (
     <div>
-      <div className="container">
-        <h1>Hello World</h1>
-      </div>
+      <Head>
+      <link rel="shortcut icon" href="/favicon.svg" />
+      <title>Sumit Kumar</title>
+      <meta charSet="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content="Sumit's personal portfolio" />
+      </Head>
+      <Landing/>
     </div>
   )
 }

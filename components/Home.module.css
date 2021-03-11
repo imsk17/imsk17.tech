@@ -1,0 +1,62 @@
+.container {
+  padding-block: 2rem;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loves {
+  letter-spacing: 2px;
+  color: var(--primary);
+  font-family: "Inter";
+  text-align: center;
+  font-weight: 600;
+}
+
+.titlecon {
+  padding-right: 100px;
+}
+
+.title {
+  white-space: pre-wrap;
+  font-size: 64px;
+  text-align: center;
+  color: white;
+  font-family: "Pacifico";
+}
+
+.nav a {
+  color: var(--primary);
+  text-decoration: none;
+}
+.nav a:hover {
+  text-underline-offset: 8px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 2px;
+}
+
+.nav {
+  padding-bottom: 40px;
+  z-index: 1;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: var(--primary);
+  font-family: "Inter";
+  font-weight: 500;
+}
+
+.gopher {
+  width: 200px;
+  top: 0px;
+  right: 0px;
+  position: absolute;
+}
+
+.android {
+  bottom: -20px;
+  position: absolute;
+}
