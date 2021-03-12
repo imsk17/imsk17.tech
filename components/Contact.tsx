@@ -28,17 +28,17 @@ export default function Contact() {
             </p>
           </p>
           <div className={style.socials}>
-            <a href="https://github.com/imsk17">
+            <a aria-label="Takes You to My Github" href="https://github.com/imsk17">
               <div>
                 <Image width="35px" height="35px" src="/Github.svg" />
               </div>
             </a>
-            <a href="https://twitter.com/imsk_17">
+            <a aria-label="Takes You to My Twitter"  href="https://twitter.com/imsk_17">
               <div>
                 <Image width="35px" height="35px" src="/Twitter.svg" />
               </div>
             </a>
-            <a href="https://www.linkedin.com/in/sumit-kumar-477818190/">
+            <a  aria-label="Takes You to My Linked In"  href="https://www.linkedin.com/in/sumit-kumar-477818190/">
               <div>
                 <Image width="35px" height="35px" src="/LinkedIn.svg" />
               </div>

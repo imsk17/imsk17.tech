@@ -10,7 +10,7 @@ export default function Work() {
           <strong className={style.title}>HANG</strong>
           <p className={style.subtitle}>
             <em >
-              An Voice Chatting Platform For Zoomers, Scalable to Moon.
+              A Voice Chatting Platform For Zoomers, Scalable to Moon.
             </em>
           </p>
           <p className={style.stack}>

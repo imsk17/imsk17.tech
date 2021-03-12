@@ -18,7 +18,7 @@ export default function About() {
                 <div>
                     <strong className={style.strong}>EDUCATION</strong>
                     <p className={style.text}>
-                    I am currently pursuing my Bachelor’s of Technology in Information Technology from <strong className={style.links}><a href="http://gbu.ac.in">Gautam Buddha University</a></strong> located in Greater Noida. The Latest copy of my resume can be found <strong className={style.links}><a href="/Resume.pdf">Here</a></strong>.
+                    I am currently pursuing my Bachelor’s of Technology in Information Technology from <strong className={style.links}><a href="http://gbu.ac.in">Gautam Buddha University</a></strong> located in Greater Noida. The Latest copy of my resume can be found here <strong className={style.links}><a aria-label="Shows You My Resume" href="/Resume.pdf">Resume.pdf</a></strong>.
                 </p>
                 </div>
                 <div>

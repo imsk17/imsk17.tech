@@ -5,7 +5,7 @@ export default function Landing() {
     return (
         <div className={style.container}>
             <div className={style.gopher}>
-            <Image  src="/Gopher.svg" width="316" height="428"></Image>
+            <Image alt="gopher"  src="/Gopher.svg" width="316" height="428"></Image>
             </div>
             <p className={style.loves}>
                 ANDROID AND BACKEND ENGINEER
@@ -24,7 +24,7 @@ export default function Landing() {
                 <a href="#Tools">Tools</a> 
             </p>
             <div className={style.android}>
-            <Image  src="/Android.svg" width="250" height="150"></Image>
+            <Image  alt="android" src="/Android.svg" width="250" height="150"></Image>
             </div>
         </div>
     )
