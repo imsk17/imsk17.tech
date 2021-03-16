@@ -1,0 +1,43 @@
+.container {
+  display: none;
+  margin: 15px;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  z-index: 1000;
+  background: var(--primary);
+}
+@media (max-width: 760px) {
+  .container {
+    display: block;
+  }
+}
+
+.containerNav {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  position: fixed;
+  z-index: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.list li {
+  list-style: none;
+  text-align: center;
+  margin: 15px;
+}
+
+.list li a {
+  text-decoration: none;
+  font-family: "Inter";
+  text-align: center;
+  color: var(--primary);
+  margin: 15px;
+}
