@@ -9,6 +9,7 @@
 }
 
 .loves {
+  z-index: 5;
   letter-spacing: 2px;
   color: var(--primary);
   font-family: "Inter";
@@ -21,6 +22,7 @@
 }
 
 .title {
+  z-index: 5;
   white-space: pre-wrap;
   font-size: 3.5rem;
   text-align: center;
@@ -62,4 +64,13 @@
 .android {
   bottom: -20px;
   position: absolute;
+}
+@media (max-width: 760px) {
+  .loves {
+    letter-spacing: 2px;
+    color: var(--primary);
+    font-family: "Inter";
+    margin-left: 70px;
+    font-weight: 600;
+  }
 }

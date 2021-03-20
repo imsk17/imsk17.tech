@@ -9,7 +9,7 @@ let Ham = () => {
   return (
     <div>
       <div className={style.container}>
-        <Hamburger toggled={isOpen} toggle={setOpen} color="white" />
+        <Hamburger toggled={isOpen} toggle={setOpen} color="white" size={24} />
       </div>
       {isOpen ? (
         <div className={style.containerNav}>
